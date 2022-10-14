@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: black;
+    font-family: Inter;
+    color: white;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.svg{
+    
+    font-size: 18px;
+    font-weight: bold;
+    height: 75px;
+    position: flex;
+    justify-items: baseline;
+
+}
+.emb{
+    width: 213px;
+    height: 44px;
+    
+}
+
+.header__text1{
+    
+    font-size: 18px;
+    font-weight: bold;
+    height: 75px;
+    position: flex;
+    justify-items: baseline;
+    /*margin-left: 45px;*/
+}
+.svg + .header__text1{
+    margin-left: 18px;
+}
+.header__action{
+    display: flex;
+    /*gap: 20px;*/
+
+}
+.header__button{
+    font-size: 16px;
+    font-weight: 500;
+    height: 75px;
+    position: flex;
+    background-color: black;
+    color: white;
+    max-height: 1200px;
+    cursor: pointer;
+}
+
+.header__button + .header__button{
+    margin-left: 30px;
+}
+
+.header__row{
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-items: baseline;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 0;
+
+
+}
+.counteiners{
+    width: 100%;
+    
+    margin-top: 40px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5,1fr);
+     
+}
+.counteiner{
+    background-color: rgb(36, 36, 36);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card__button{
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14;
+    font-weight: 600;
+    color: rgb(255, 156, 7);
+    text-align: center;
+    border: 2px solid rgb(255, 156, 7);
+    padding: 16px 16px; 
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 20px;
+    background-color: rgb(36, 36, 36);
+}
+.title{
+    box-sizing: border-box;
+    position: relative;
+    font-size: 48px;
+    height: 60px;
+    width: 1200px;
+    margin-top: 30px;
+}
+.tetxmini{
+    font-size: 14;
+    font-weight: normal;
+    color: rgb(152, 152, 152);
+
+}
+.tetxmax{
+    font-size: 20;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+
+}
+.footer{
+    margin-top: 40px;
+}
+.footer__row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    
+}
+.footer__email{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:rgb(255, 156, 7);
+    text-decoration: none;
+}
+.footer__developer-info{
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+.show-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 16px;
+    border: 2px solid rgb(255, 156, 7);
+    border-radius: 10px;
+    font-weight: 600;
+    line-height: 20px;
+    color:rgb(255, 156, 7);
+    background-color: rgb(36, 36, 36);
+}
+.add__button{
+    color: white;
+    background-color:rgb(255, 156, 7);
+    border-radius: 10px;
+    padding: 20px;
+}
