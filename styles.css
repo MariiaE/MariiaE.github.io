@@ -162,3 +162,17 @@
     border-radius: 10px;
     padding: 20px;
 }
+@media screen and (max-width: 1280px){
+    .body{
+        max-width: 688px;
+        margin: 0px auto;
+    }
+    .header__row{
+        max-width: 688px;
+    }
+    .counteiners{
+        max-width: 688px;
+        grid-gap: 20px;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
