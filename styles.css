@@ -213,5 +213,15 @@
         grid-gap: 20px;
         grid-template-columns: repeat(3,1fr);
     }
+    .a{
+        display: none;
+    }
+    .title{
+        line-height: 44px;
+    }
+ 
+    .header__text1{
+        display: none;
+    }
     
 }
