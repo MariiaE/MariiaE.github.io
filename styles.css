@@ -176,3 +176,20 @@
         grid-template-columns: repeat(3,1fr);
     }
 }
+@media screen and (max-width: 768px){
+    .body{
+        max-width: 280px;
+        margin: 0px auto;
+    }
+    .header__row{
+        max-width: 280px;
+    }
+    .counteiners{
+        max-width: 688px;
+        grid-gap: 20px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .counteiner{
+        
+    }
+}
