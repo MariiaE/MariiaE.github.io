@@ -7,7 +7,7 @@
     background-color: black;
     font-family: Inter;
     color: white;
-    max-width: 1200px;
+    max-width: 1240px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
@@ -29,9 +29,9 @@
 }
 
 .header__text1{
-    
+    font-weight: 600;
     font-size: 18px;
-    font-weight: bold;
+    line-height: 22px;
     height: 75px;
     position: flex;
     justify-items: baseline;
@@ -46,6 +46,8 @@
 
 }
 .header__button{
+    
+    line-height: 19px;
     font-size: 16px;
     font-weight: 500;
     height: 75px;
@@ -78,6 +80,7 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(5,1fr);
+    
      
 }
 .counteiner{
@@ -88,8 +91,9 @@
 
 .card__button{
     display: inline-block;
+    
     width: 100%;
-    margin-top: 20px;
+    
     font-size: 14;
     font-weight: 600;
     color: rgb(255, 156, 7);
@@ -101,11 +105,14 @@
     text-decoration: none;
     line-height: 20px;
     background-color: rgb(36, 36, 36);
+    margin-block-end: 20px;
 }
 .title{
     box-sizing: border-box;
     position: relative;
-    font-size: 48px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
     height: 60px;
     width: 1200px;
     margin-top: 30px;
@@ -114,14 +121,32 @@
 .al{
     display: flex;
 }
-.tetxmini{
-    font-size: 14;
+.tetxmini1{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
     font-weight: normal;
     color: rgb(152, 152, 152);
+    margin-block-end: 16px;
 
 }
+.tetxmini2{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+    color: rgb(152, 152, 152);
+    margin-left: 10px;
+
+}
+
+
+
+
 .tetxmax{
-    font-size: 20;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
     font-weight: bolder;
     color: rgb(255, 255, 255);
 
@@ -136,6 +161,7 @@
     
 }
 .footer__email{
+    font-weight: 400;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -157,6 +183,8 @@
     border: 2px solid rgb(255, 156, 7);
     border-radius: 10px;
     font-weight: 600;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 20px;
     color:rgb(255, 156, 7);
     background-color: rgb(36, 36, 36);
@@ -168,7 +196,6 @@
     padding: 20px;
     display: flex;
     flex-direction: row;
-    flex-direction: ;
     justify-content: flex-start;
     width: 199px;
     height: 60px;
@@ -181,7 +208,23 @@
     width: auto;
     white-space: nowrap;
     line-height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+
+    
 }
+
+.textminicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.img{
+    width: 184px;
+    height: 276px;
+}
+    
+
 
 @media screen and (max-width: 1280px){
     .body{
@@ -196,10 +239,25 @@
         grid-gap: 20px;
         grid-template-columns: repeat(3,1fr);
     }
-    .counteiner{
+    .img{
+        width: 176px;
+        height: 276px;
 
     }
+    
+}        
+    
+
+@media screen and (min-width: 768px){
+    .tetxmini2{
+    display: none;
+    }
+    .clock{
+        display: none;
+    }
 }
+
+
 @media screen and (max-width: 768px){
     .body{
         max-width: 280px;
@@ -211,12 +269,25 @@
     .counteiners{
         max-width: 688px;
         grid-gap: 20px;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0px;
+        margin-top: 30px;
+        
+       
+        
+    }
+
+    .counteiner{
+        margin-top: 30px;
+        padding: 0px ;
+    
     }
     .a{
         display: none;
     }
     .title{
+        font-weight: 500;
+        font-size: 36px;
         line-height: 44px;
     }
  
@@ -224,4 +295,72 @@
         display: none;
     }
     
+    
+
+    .header__button{
+        color: #838383;
+    }
+    
+    .tetxmini1{
+        display: none;
+    }
+    .footer__row{
+        display:contents;
+        justify-items:center;
+        padding: 20px;
+
+    }
+    .footer__developer-info{
+        color: #838383;
+        
+        margin: 20px ;
+    }
+    .footer__email{
+        margin-left: 70px;
+        text-align: center;
+    }
+    .img{
+        width: 134px;
+        height: 207px;
+
+    }
+    .add__button{
+        width: 44px;
+        height: 44px;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .plus{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: 12px 12px 12px -10px;
+        
+    
+    }
+    .tetxmax{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 16px;
+    }
+
+    .card__button{
+        padding: 12px 11.5px;
+        margin-top: 12px;
+        margin-left: 16px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        width: 102px;
+        height: 44px;
+        font-style: normal;
+       
+
+
+    }
+    .clock{
+        margin-top: 2px;
+        margin-left: 16px;
+    }
 }
