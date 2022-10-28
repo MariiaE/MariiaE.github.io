@@ -73,6 +73,9 @@
 
 
 }
+a{
+    text-decoration: none;
+}
 
 .des{
     margin-top: 30px;
