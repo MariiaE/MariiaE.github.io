@@ -99,13 +99,19 @@
     color: rgb(255, 156, 7);
     text-align: center;
     border: 2px solid rgb(255, 156, 7);
-    padding: 16px 16px; 
+    padding: 12px 16px; 
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
     line-height: 20px;
     background-color: rgb(36, 36, 36);
     margin-block-end: 20px;
+    margin-top: 16px;
+}
+.h__add{
+    display: block;
+    width: 184px;
+    height: 84px;
 }
 .card__button:hover{
     
@@ -135,6 +141,7 @@
     font-weight: normal;
     color: rgb(152, 152, 152);
     margin-block-end: 16px;
+    margin-top: 12px;
 
 }
 .tetxmini2{
@@ -144,6 +151,7 @@
     font-weight: normal;
     color: rgb(152, 152, 152);
     margin-left: 10px;
+    margin-top: 12px;
 
 }
 
@@ -160,6 +168,12 @@ a{
     line-height: 26px;
     font-weight: bolder;
     color: rgb(255, 255, 255);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 184px;
+    height: 52px;
+
 
 }
 .footer{
